@@ -1,5 +1,5 @@
 body{
-    background: #fffff8;
+    
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
@@ -8,21 +8,19 @@ body{
     grid-auto-rows: minmax(150px, auto);
     /* grid-template-columns:  */
     height:100vh;
-    background: #f23557;
-    color: #f0d43a;
+    background: #877f7d;
+    color: #fffff8;
     justify-content: center;
     grid-gap: 1em;
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
+    
 }
 
 .holder{
 
 }
 
-.entry{
-    background: rgba(59, 74, 107, .4);
-}
 
 #entryHolder{
 
@@ -51,38 +49,59 @@ body{
 label{
     display:block;
     font-size: 27px;
+    
 }
 
 input{
     display:block;
     height: 60px;
     width: 320px;
-    background:#22b2da;
-    color: #f0d43a;
+    background: #002D62;
+    color: #e6e6e6;
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
     border: none;
+    border-radius: 4px;
 }
 
+.myInput{
+    height: 150px;
+
+}
 button{
-    width: 400px;
-    height: 100px;
-    background: #3b4a6b;
+    
+    background:#008CBA;
     color: #f0d43a;
     font-size: 26px;
     font-family: 'Oswald', sans-serif;
     border: none;
     box-shadow: 2px 4px 5px #444;
+    width: 200px;
+    height: 50px;
+    /* margin-bottom: 1em; */
+    position: absolute;
+    bottom: 2em;
+    
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: 0.4s;
 }
+button:hover{
+    background: #002D62;
+}
+
 h1{
     font-size: 36px;
 }
 
 textarea{
-    background:#22b2da;
+    background:#002D62;
     color: #f0d43a;
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
+    border-radius: 4px;
+    
+
 }
 /* Reset style for HTML element on active to have no border*/
 input:focus,

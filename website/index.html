@@ -8,16 +8,16 @@
 </head>
  <body>
 <div id = "app">
-  <div class ="holder headline">
+  <div class ="holder headline" style="margin-top: 13px;">
     Weather Journal App
   </div>
-  <div class ="holder zip">
-    <label for="zip">Enter Zipcode here</label>
-    <input type="text" id="zip" placeholder="enter zip code here">
+  <div class ="holder zip" style="position: relative;">
+    <label for="zip" style="position: absolute; top: -5em;">Enter Zipcode here</label>
+    <input type="text" id="zip" style="margin-top: -4em;" placeholder="enter zip code here">
   </div>
-  <div class ="holder feel">
-    <label for="feelings">How are you feeling today?</label>
-    <textarea class= "myInput" id="feelings" placeholder="Enter your feelings here" rows="9" cols="50"></textarea>
+  <div class ="holder feel" style="position: relative;">
+  <label for="feelings" style="position: absolute; top: -7em; color: #fff;" >How are you feeling today?</label>
+  <textarea class= "myInput" id="feelings" placeholder="Enter your feelings here" rows="15" cols="50" style="position: absolute; top: -7em;"></textarea>
     <button id="generate" type = "submit"> Generate </button>
   </div>
   <div class ="holder entry">
